@@ -83,6 +83,9 @@
     .process-line{
         width: 75%;
     }
+    .content-body{
+        padding: 2em;
+    }
   }
   
 @media screen and (max-width: 1390px) {
