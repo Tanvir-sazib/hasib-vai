@@ -103,6 +103,20 @@
     color: white;
     cursor: pointer;
 }
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+.nav-items a{
+    
+        padding: .5rem 1rem;
+        text-decoration: none;
+        color: black;
+        transition: 0.3s;        
+}
+.nav-items a:hover{
+    border-bottom: solid 4px teal;
+}
 
 @media screen and (max-width: 1390px) {
     
@@ -111,5 +125,8 @@
     }
     .sidebar{
         min-height: 100%;
+    }
+    .nav-items a{
+        display: block;
     }
 }
